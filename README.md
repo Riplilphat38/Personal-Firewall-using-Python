@@ -13,8 +13,8 @@ It captures, analyzes, and logs network traffic in real-time and allows dynamic 
 - 🔍 Real-time **packet monitoring**
 - 📁 Logs all traffic (source IP, destination IP, protocol, ports)
 - 🛑 Block any IP or port dynamically via the GUI
-- 🧠 Built using **Scapy + Tkinter**
-- ⚙️ Fully functional on **Windows OS**
+- 🧠 Built using **Scapy + NetFilterQueue**
+- ⚙️ Fully functional on **Kali Linux**
 
 ---
 
