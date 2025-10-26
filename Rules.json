@@ -1,0 +1,23 @@
+{
+  "default_action": "ALLOW",
+  "rules": [
+    {
+      "id": 1,
+      "action": "BLOCK",
+      "direction": "IN",
+      "ip": "203.0.113.0/24",
+      "port": null,
+      "proto": "ANY",
+      "comment": "Block hostile subnet"
+    },
+    {
+      "id": 2,
+      "action": "BLOCK",
+      "direction": "ANY",
+      "ip": "198.51.100.42",
+      "port": 22,
+      "proto": "TCP",
+      "comment": "Block SSH from specific IP"
+    }
+  ]
+}
